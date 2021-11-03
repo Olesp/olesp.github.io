@@ -40,6 +40,14 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/olespagnon"
 
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/14028178/masoj"
+
+- name: Mail
+  icon: "fas fa-envelope"
+  url: "mailto:insertemailhere@xyz.com"
+
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
@@ -50,3 +58,6 @@ softSkills:
 - name: Team Work
   percentage: 90
   color: yellow
+- name: Fast learner
+  percentage: 95
+  color: green
