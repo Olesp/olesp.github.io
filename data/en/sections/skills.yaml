@@ -1,0 +1,34 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: "/images/sections/skills/kubernetes.svg"
+  summary: "Capable of deploying, managing application on Kubernetes."
+  url: "https://kubernetes.io/"
+
+- name: Go Development
+  logo: "/images/sections/skills/go.svg"
+  summary: "Using as a scripting language for IT workflows. Learning to create simple OSS programs aim towards Devops operations."
+  url: "https://golang.org/"
+
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc. Deploying application and managing application for clients."
+
+- name: IAAS (Terraform)
+  logo: /images/sections/skills/terraform.svg
+  summary: "Managing and deploying infrastructure using IAAS tools such as Terraform. Integrating it in a CI/CD platform."
+
+- name: CI/CD
+  logo: /images/sections/skills/cicd.png
+  summary: "Creating and automating CI/CD pipelines on VCS platform. Using it to manage my infrastructure or build of our applications."

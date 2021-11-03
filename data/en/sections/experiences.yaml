@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: LaJavaness
+    url: "https://www.lajavaness.com"
+    location: Paris
+    # company overview
+    overview: 'LaJavaness is a french independant IA company. Our amibtion is to defend 
+      technological sovereignty of private and public european organisations.'
+  positions:
+  - designation: Devops Student
+    start: March 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and implement CI/CD pipelines
+    - Improve deployments workflows with automated actions.
+
+
+- company:
+    name: Wallix
+    url: "https://www.wallix.com"
+    location: Paris
+    overview: 'Wallix is a French IT security software editor founded in 2003. It specializes 
+      in securing information systems and managing critical IT infrastructures.'
+  positions:
+  - designation: IT intern
+    start: Sept 2020
+    end: March 2021
+    responsibilities:
+    - Operating the IT helpdesk.
+    - Manage company hardware.
+    - Automate workflows by scripting APIs calls.
+
+- company:
+    name: Apple
+    url: "https://apple.com"
+    location: Paris
+    overview: 'Apple Retail is the main place to buy and service all Apple products. It is a completely unique vision of shopping.'
+  positions:
+  - designation: Specialist
+    start: March 2019
+    end: Jul 2020
+    responsibilities:
+    - Welcome visitors and client
+    - Provide advices to clients based on needs
+    - Genius Bar for Iphones

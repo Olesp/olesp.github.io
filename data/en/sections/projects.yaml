@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Vault deployment
+  logo: /images/sections/projects/vault.svg
+  role: Owner
+  timeline: "March 2018 - Present"
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Dynamic credential manager integrated in our CI/CD to generate AWS tokens for our jobs.
+  tags: ["professional", "vault", "cloud"]

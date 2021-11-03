@@ -1,0 +1,17 @@
+# some information about you
+name: "Olivier Lespagnon"
+nickname: "Olivier"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "/images/author/olivier.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "olespagnon@protonmail.com"
+
+
+# some summary about what you do
+summary:
+  - I am a Devops
+  - I love servers
+  - I work on open-source projects
+  - I love to work with some fun projects
