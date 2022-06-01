@@ -37,3 +37,5 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
+  logo:
+    favicon: images/olivier.jpeg
