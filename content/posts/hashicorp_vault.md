@@ -11,9 +11,6 @@ tags: ["Réalisations techniques", "Multi-langues"]
 categories: ["Réalisations techniques"]
 
 ---
-
-# Implémentation d'un gestionnaire de secrets dynamiques
-
 ## "Tu peux me passer les identifiants pour AWS ?"
 
 Je suis arrivé à LaJavaness en mars en tant qu'alternant Devops. Il faut savoir que je viens d'une formation spécialisée systèmes et réseaux. Donc sans compétences cloud enseignées en cours. Mais personnellement c'est un domaine qui m'a toujours attiré et après m'être autant que possible auto-formé me voilà en plein dedans. 
@@ -34,9 +31,8 @@ L'avantage le plus évident c'est que notre Vault ne va pas oublier de révoquer
 
 Un autre avantage qui survient, c'est la possibilité d'automatiser certaines actions. Augmentant donc la productivité.
 
-'''
-💡 Exemple : Un développeur voudrait tester son nouvel algorithme de machine learning. Pour cela il à besoin d'une machine virtuelle capable d'exécuter le code. Il met son code en ligne sur le gestionnaire de version, ce dernier demande alors au Vault des identifiants afin de déployer une machine virtuelle sur un cloud. Le Vault lui donne, la machine virtuelle est donc créée. Et le Vault supprime les identifiants. Quand le travail est fini, le Vault recrée des identifiants, le gestionnaire éteins la machine virtuelle. Et voilà ! Tout s'est produit sans même que le développeur n'ait eu besoin de demander au service IT de créer une machine virtuelle, de lui donner les droits d'accès, puis de la supprimer ensuite.
-'''
+
+>💡 **Exemple** : Un développeur voudrait tester son nouvel algorithme de machine learning. Pour cela il à besoin d'une machine virtuelle capable d'exécuter le code. >Il met son code en ligne sur le gestionnaire de version, ce dernier demande alors au Vault des identifiants afin de déployer une machine virtuelle sur un cloud. >Le Vault lui donne, la machine virtuelle est donc créée. Et le Vault supprime les identifiants. Quand le travail est fini, le Vault recrée des identifiants, le >gestionnaire éteins la machine virtuelle. Et voilà ! Tout s'est produit sans même que le développeur n'ait eu besoin de demander au service IT de créer une >machine virtuelle, de lui donner les droits d'accès, puis de la supprimer ensuite.
 
 C'est la "magie" que permet un gestionnaire de secrets.
 
