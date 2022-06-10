@@ -2,7 +2,7 @@
 title: Réalisations technique
 menu:
   sidebar:
-    name: Réalisations technique
+    name: Réalisations techniques
     identifier: tech
     weight: 10
 ---

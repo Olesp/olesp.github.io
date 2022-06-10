@@ -7,6 +7,7 @@ menu:
   sidebar:
     name: Hashicorp Vault
     identifier: hashivault
+    parent: tech
     weight: 10
 tags: ["Réalisations techniques", "Multi-langues"]
 categories: ["Réalisations techniques"]
