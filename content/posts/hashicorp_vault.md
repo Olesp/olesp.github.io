@@ -1,3 +1,17 @@
+---
+title: "Implémentation d'un gestionnaire de secrets dynamiques"
+date: 2022-06-05T08:06:25+06:00
+description: Deploying Hashicorp Vault
+menu:
+  sidebar:
+    name: Hashicorp Vault
+    identifier: hashivault
+    weight: 10
+tags: ["Réalisations techniques", "Multi-langues"]
+categories: ["Réalisations techniques"]
+
+---
+
 # Implémentation d'un gestionnaire de secrets dynamiques
 
 ## "Tu peux me passer les identifiants pour AWS ?"
