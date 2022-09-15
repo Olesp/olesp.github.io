@@ -18,10 +18,10 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Je suis un devops passioné par mon métier. J'aime concevoir des solutions CI/CD utilisant [Kubernetes](https://kubernetes.io/). 
+summary: "Je suis un devops passioné par mon métier. J'aime concevoir des solutions CI/CD utilisant [Kubernetes](https://kubernetes.io/). 
   Je scripte aussi beaucoup d'actions récurrents avec [Python](https://www.python.org/) ou [Go](https://golang.org/).
   J'aime être challengé et travailler avec de nouvelles équipes sur des belles choses.
-  Si vous pensez que nous pourrions travailler ensemble contactez moi.'
+  Si vous pensez que nous pourrions travailler ensemble contactez moi."
 
 
 # your social links
@@ -54,9 +54,9 @@ softSkills:
 - name: Résolution de problèmes
   percentage: 85
   color: blue
-- name: Travail d'équipe
+- name: "Travail d'équipe"
   percentage: 90
   color: yellow
-- name: Rapidité d'adaptation
+- name: "Rapidité d'adaptation"
   percentage: 95
   color: green

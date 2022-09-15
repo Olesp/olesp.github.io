@@ -15,8 +15,8 @@ experiences:
     url: "https://www.lajavaness.com"
     location: Paris
     # company overview
-    overview: 'LaJavaness est une entreprise d'IA française indépendante. Notre ambition est de défendre la souveraineté logiciele 
-      des organisation européenes privées ou publiques.'
+    overview: "LaJavaness est une entreprise d'IA française indépendante. Notre ambition est de défendre la souveraineté logiciele 
+      des organisation européenes privées ou publiques."
   positions:
   - designation: Devops
     start: March 2021
@@ -25,22 +25,22 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Concevoir et mettre en placer des pipelines CI/CD
-    - Améliorer les déploiements grâce à l'automatisation
+    - "Améliorer les déploiements grâce à l'automatisation"
 
 
 - company:
     name: Wallix
     url: "https://www.wallix.com"
     location: Paris
-    overview: 'Wallix est une entreprise française de sécurité informatique. 
-      Fondée en 2003, elle se spécialise dans la sécurisation des SI et le management des outils critiques.'
+    overview: "Wallix est une entreprise française de sécurité informatique. 
+      Fondée en 2003, elle se spécialise dans la sécurisation des SI et le management des outils critiques."
   positions:
   - designation: Stagiaire IT 
     start: Sept 2020
     end: March 2021
     responsibilities:
     - Helpdesk.
-    - Gestion du parc informatique de l'entreprise.
+    - "Gestion du parc informatique de l'entreprise."
     - Automatisation de processus grâce au scripting.
 
 - company:
