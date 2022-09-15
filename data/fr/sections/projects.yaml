@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tout
+  filter: "all"
+- name: Professionel
+  filter: "professional"
+- name: Académique
+  filter: "academic"
+- name: Personnel
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Vault deployment
+  logo: /images/sections/projects/vault.svg
+  role: Owner
+  timeline: "March 2018 - Present"
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Gestionnaire de secrets dynamique intégré à nos CI/CD pour la génération de secrets AWS.
+  tags: ["professional", "vault", "cloud"]

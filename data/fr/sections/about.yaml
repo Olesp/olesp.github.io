@@ -1,0 +1,62 @@
+# section information
+section:
+  name: À propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Devops
+# your company information
+company:
+  name: LaJavaness
+  url: "https://www.lajavaness.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Je suis un devops passioné par mon métier. J'aime concevoir des solutions CI/CD utilisant [Kubernetes](https://kubernetes.io/). 
+  Je scripte aussi beaucoup d'actions récurrents avec [Python](https://www.python.org/) ou [Go](https://golang.org/).
+  J'aime être challengé et travailler avec de nouvelles équipes sur des belles choses.
+  Si vous pensez que nous pourrions travailler ensemble contactez moi.
+
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/olesp"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/olivierlespagnon/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/olespagnon"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/14028178/masoj"
+
+- name: Mail
+  icon: "fas fa-envelope"
+  url: "mailto:o.lespagnon@protonmail.com"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Résolution de problèmes
+  percentage: 85
+  color: blue
+- name: Travail d'équipe
+  percentage: 90
+  color: yellow
+- name: Rapidité d'adaptation
+  percentage: 95
+  color: green
