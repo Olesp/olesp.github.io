@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bac +5 Experts en Ingénierie des Systèmes d’Information
+  icon: fa-microscope
+  timeframe: 2017-2023
+  institution:
+    name: Intech
+    url: "https://www.intechinfo.fr/"
+- name: Baccalauréat Scientifique
+  icon: fa-graduation-cap
+  timeframe: 2016
+  institution:
+    name: Lycée Marcelin Berthelot Pantin

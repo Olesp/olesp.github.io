@@ -7,11 +7,11 @@ theme: "toha"
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageName: English
-    weight: 1
   fr:
     languageName: Français
+    weight: 1
+  en:
+    languageName: English
     weight: 1
 
 # Control TOC depth
