@@ -29,14 +29,14 @@ projects:
   summary: Implemented a secret manager solutions to our infrastructure. Now it handles every access from every employee to any resources.
   tags: ["professional", "vault", "cloud"]
 - name: Dependency Track deployment
-  logo: /images/sections/projects/dptrack.png
+  logo: /images/sections/projects/gh.svg
   role: Owner
   timeline: "2022"
   url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/deploy-dependency-track/deploying-dependency-track/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Deployed a dependency monitoring application to monitor our codebase.
   tags: ["professional", "dptrack", "development"]
 - name: Creating a static website using Hugo and Github Actions
-  logo: /images/sections/projects/Github-Mark.png
+  logo: /images/sections/projects/gh.svg
   role: Owner
   timeline: "2022"
   url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/create-and-host-a-static-website-using-github-actions/github_website/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
