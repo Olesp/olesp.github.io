@@ -32,6 +32,13 @@ projects:
   logo: /images/sections/projects/vault.svg
   role: Owner
   timeline: "2022"
-  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/deploy-dependency-track/deploying-dependency-track/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Deploiement d'un outil de monitoring de dépendances de notre codebase.
-  tags: ["professional", "dptrack", "development"]
+- name: Creation d'un site avec Hugo et Github Actions
+  logo: /images/sections/projects/Github-Mark.png
+  role: Owner
+  timeline: "2022"
+  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/create-and-host-a-static-website-using-github-actions/github_website/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Créer un site avec Hugo et le deployer via Github Actions gratuitement
+  tags: ["professional", "ghactions", "development"]
+
