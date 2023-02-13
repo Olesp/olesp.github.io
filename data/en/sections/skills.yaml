@@ -25,9 +25,9 @@ skills:
   logo: "/images/sections/skills/cloud.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc. Deploying application and managing application for clients."
 
-- name: IAAS (Terraform)
+- name: IAC (Terraform)
   logo: /images/sections/skills/terraform.svg
-  summary: "Managing and deploying infrastructure using IAAS tools such as Terraform. Integrating it in a CI/CD platform."
+  summary: "Managing and deploying infrastructure using IAC tools such as Terraform. Integrating it in a CI/CD platform."
 
 - name: CI/CD
   logo: /images/sections/skills/cicd.png

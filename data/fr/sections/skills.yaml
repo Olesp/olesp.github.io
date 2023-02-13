@@ -25,9 +25,9 @@ skills:
   logo: "/images/sections/skills/cloud.png"
   summary: "Je travaille sur les plus grands fournisseurs de services, AWS, GCP, Azure. Déploiements d'applications pour le compte de clients."
 
-- name: IAAS (Terraform)
+- name: IAC (Terraform)
   logo: /images/sections/skills/terraform.svg
-  summary: "Gérer et deployer de l'infrastructure as code en utilisant des outils IAAS comme Terraform."
+  summary: "Gérer et deployer de l'infrastructure as code en utilisant des outils IAC comme Terraform."
 
 - name: CI/CD
   logo: /images/sections/skills/cicd.png
