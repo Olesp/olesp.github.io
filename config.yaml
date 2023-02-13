@@ -12,7 +12,7 @@ languages:
     weight: 1
   en:
     languageName: English
-    weight: 1
+    weight: 2
 
 # Control TOC depth
 markup:
@@ -29,6 +29,7 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/Olesp/olesp.github.io
   gitBranch: source
+  background: /images/site/bg.jpg
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projets
+  name: Réalisations
   id: projects
   enable: true
   weight: 4
@@ -26,5 +26,5 @@ projects:
   role: Owner
   timeline: "March 2018 - Present"
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Gestionnaire de secrets dynamique intégré à nos CI/CD pour la génération de secrets AWS.
+  summary: Implémentation d'un outil de gestion des secrets de notre infrastructure. Désormais il gère tous les accès à toutes les ressources pour n'importe quel employé.
   tags: ["professional", "vault", "cloud"]

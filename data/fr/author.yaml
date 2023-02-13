@@ -7,6 +7,8 @@ image: "/images/author/olivier.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "olespagnon@protonmail.com"
+  github: Olesp
+  linkedin: olivierlespagnon  
 
 
 # some summary about what you do

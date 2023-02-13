@@ -18,11 +18,12 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate devops student. I love to build CI/CD pipelines using 
+summary: 'I am a passionate devops engineer. I love to build CI/CD pipelines using 
   [Kubernetes](https://kubernetes.io/). I also script recurring actions using 
   [Python](https://www.python.org/) or [Go](https://golang.org/).
   I love to be challenged and working with new teams on great things.
-  If you feel like we could work together let''s get in touch.'
+  I am passionate about delivering quality and improving workflows and infrastructure. 
+  Understanding teams needs to design better solutions that actually improve their life.'
 
 
 # your social links

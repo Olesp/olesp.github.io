@@ -1,5 +1,5 @@
 ---
-title: "Implémentation d'un gestionnaire de secrets dynamiques"
+title: "Implenting a dynamic secret manager"
 date: 2022-06-05T08:06:25+06:00
 description: Deploying Hashicorp Vault
 hero: /images/posts/vault/vault.png

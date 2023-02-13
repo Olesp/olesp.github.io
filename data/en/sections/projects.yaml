@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Achievements
   id: projects
   enable: true
   weight: 4
@@ -25,6 +25,6 @@ projects:
   logo: /images/sections/projects/vault.svg
   role: Owner
   timeline: "March 2018 - Present"
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Dynamic credential manager integrated in our CI/CD to generate AWS tokens for our jobs.
+  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Implemented a secret manager solutions to our infrastructure. Now it handles every access from every employee to any resources.
   tags: ["professional", "vault", "cloud"]
