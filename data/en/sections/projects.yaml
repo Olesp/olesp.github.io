@@ -24,7 +24,14 @@ projects:
 - name: Vault deployment
   logo: /images/sections/projects/vault.svg
   role: Owner
-  timeline: "March 2018 - Present"
+  timeline: "2022"
   url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Implemented a secret manager solutions to our infrastructure. Now it handles every access from every employee to any resources.
   tags: ["professional", "vault", "cloud"]
+- name: Dependency Track deployment
+  logo: /images/sections/projects/vault.svg
+  role: Owner
+  timeline: "2022"
+  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Deployed a dependency monitoring application to monitor our codebase.
+  tags: ["professional", "dptrack", "development"]

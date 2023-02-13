@@ -1,6 +1,6 @@
 ---
 title: "Gathering all your service accounts on AWS"
-date: 2022-06-05T08:06:25+06:00
+date: 2023-02-13T08:06:25+06:00
 description: Gathering service accounts
 hero: images/vault.png
 menu:

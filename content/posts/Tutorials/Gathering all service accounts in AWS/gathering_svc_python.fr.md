@@ -1,6 +1,6 @@
 ---
 title: "Lister tous les comptes de services sur votre compte AWS"
-date: 2022-06-05T08:06:25+06:00
+date: 2023-02-13T08:06:25+06:00
 description: Lister les comptes de service AWS
 hero: images/vault.png
 menu:

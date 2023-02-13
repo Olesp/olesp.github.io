@@ -28,3 +28,10 @@ projects:
   url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Implémentation d'un outil de gestion des secrets de notre infrastructure. Désormais il gère tous les accès à toutes les ressources pour n'importe quel employé.
   tags: ["professional", "vault", "cloud"]
+- name: Dependency Track deployment
+  logo: /images/sections/projects/vault.svg
+  role: Owner
+  timeline: "2022"
+  url: "https://olivierlespagnon.com/posts/r%C3%A9alisations-techniques/hashicorp-vault/hashicorp_vault/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Deploiement d'un outil de monitoring de dépendances de notre codebase.
+  tags: ["professional", "dptrack", "development"]
