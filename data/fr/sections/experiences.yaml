@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Manaos
+    url: "https://www.manaos.com"
+    location: Paris
+    # company overview
+    overview: 'Manaos permet aux investisseurs et aux gestionnaires d'actifs
+      de réaliser de nombreux cas d'utilisation, y compris l'analyse de portefeuille, la recherche de données ESG, le reporting ESG, sur une plateforme modulaire optimisée pour la flexibilité, la vitesse et l'évolutivité...'
+  positions:
+  - designation: Devops
+    start: Mars 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Gestion CI/CD
+    - Implémentation de workflows de scaling infrastructure
+    - Améliorations des workflows existants
+
+- company:
     name: LaJavaness
     url: "https://www.lajavaness.com"
     location: Paris
@@ -19,7 +37,8 @@ experiences:
       des organisation européenes privées ou publiques."
   positions:
   - designation: Devops
-    start: March 2021
+    start: Mars 2021
+    end: Mars 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -37,7 +56,7 @@ experiences:
   positions:
   - designation: Stagiaire IT 
     start: Sept 2020
-    end: March 2021
+    end: Mai 2021
     responsibilities:
     - Helpdesk.
     - "Gestion du parc informatique de l'entreprise."
@@ -50,8 +69,8 @@ experiences:
     overview: 'Apple Retail est la branche commerciale pour acheter des services et produits Apple.'
   positions:
   - designation: Specialist
-    start: March 2019
-    end: Jul 2020
+    start: Mars 2019
+    end: Juil 2020
     responsibilities:
     - Accueil des clients
     - Conseiller les clients en fonctions de leurs besoins

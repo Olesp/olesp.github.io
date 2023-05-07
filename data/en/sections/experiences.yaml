@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Manaos
+    url: "https://www.manaos.com"
+    location: Paris
+    # company overview
+    overview: 'Manaos empowers investors and asset managers
+      to fulfill numerous use cases including portfolio look-through, ESG data sourcing, ESG reporting, on a modular platform optimised for flexibility, speed and scalability..'
+  positions:
+  - designation: Devops
+    start: March 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Manage delivery
+    - Implement scaling workflows
+    - Improve existing workflows
+
+- company:
     name: LaJavaness
     url: "https://www.lajavaness.com"
     location: Paris
@@ -20,6 +38,7 @@ experiences:
   positions:
   - designation: Devops Student
     start: March 2021
+    end: Mars 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
