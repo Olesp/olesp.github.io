@@ -15,8 +15,8 @@ experiences:
     url: "https://www.manaos.com"
     location: Paris
     # company overview
-    overview: 'Manaos permet aux investisseurs et aux gestionnaires d'actifs
-      de réaliser de nombreux cas d'utilisation, y compris l'analyse de portefeuille, la recherche de données ESG, le reporting ESG, sur une plateforme modulaire optimisée pour la flexibilité, la vitesse et l'évolutivité...'
+    overview: "Manaos permet aux investisseurs et aux gestionnaires d'actifs
+      de réaliser de nombreux cas d'utilisation, y compris l'analyse de portefeuille, la recherche de données ESG, le reporting ESG, sur une plateforme modulaire optimisée pour la flexibilité, la vitesse et l'évolutivité..."
   positions:
   - designation: Devops
     start: Mars 2023
@@ -27,7 +27,6 @@ experiences:
     - Gestion CI/CD
     - Implémentation de workflows de scaling infrastructure
     - Améliorations des workflows existants
-
 - company:
     name: LaJavaness
     url: "https://www.lajavaness.com"
@@ -45,8 +44,6 @@ experiences:
     responsibilities:
     - Concevoir et mettre en placer des pipelines CI/CD
     - "Améliorer les déploiements grâce à l'automatisation"
-
-
 - company:
     name: Wallix
     url: "https://www.wallix.com"
@@ -61,7 +58,6 @@ experiences:
     - Helpdesk.
     - "Gestion du parc informatique de l'entreprise."
     - Automatisation de processus grâce au scripting.
-
 - company:
     name: Apple
     url: "https://apple.com"
