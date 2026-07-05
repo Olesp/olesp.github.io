@@ -6,14 +6,14 @@ greeting: "Welcome on my page. I'm "
 image: "/images/author/olivier.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "olespagnon@protonmail.com"
+  email: "o.lespagnon@protonmail.com"
   github: Olesp
   linkedin: olivierlespagnon
 
 
 # some summary about what you do
 summary:
-  - I am a Devops
+  - I am a Lead DevOps
   - I love servers
   - I work on open-source projects
   - I love to work with some fun projects

@@ -21,6 +21,13 @@ buttons:
 
 # your projects
 projects:
+- name: "Cloud migration: Mediaspot to AWS"
+  logo: /images/sections/projects/aws.svg
+  role: Lead DevOps
+  timeline: "2024 - 2025"
+  summary: Led the migration of Mediaspot's on-premise infrastructure to AWS — full Infrastructure-as-Code coverage with Terraform, an automated deployment pipeline, a dedicated staging environment, and cost optimization, all while keeping the platform available.
+  tags: ["professional", "cloud", "aws"]
+
 - name: Vault deployment
   logo: /images/sections/projects/vault.svg
   role: Owner

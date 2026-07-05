@@ -12,23 +12,40 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.svg"
-  summary: "Capable of deploying, managing application on Kubernetes."
+  logo: /images/sections/skills/kubernetes.svg
   url: "https://kubernetes.io/"
+  summary: "Deploying and operating applications on Kubernetes clusters."
 
-- name: Go Development
-  logo: "/images/sections/skills/go.svg"
-  summary: "Using as a scripting language for IT workflows. Learning to create simple OSS programs aim towards Devops operations."
-  url: "https://golang.org/"
+- name: AWS
+  logo: /images/sections/skills/aws.svg
+  url: "https://aws.amazon.com/"
+  summary: "Migrating and operating production workloads on AWS."
 
-- name: Cloud Computing
-  logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc. Deploying application and managing application for clients."
-
-- name: IAC (Terraform)
+- name: Terraform
   logo: /images/sections/skills/terraform.svg
-  summary: "Managing and deploying infrastructure using IAC tools such as Terraform. Integrating it in a CI/CD platform."
+  url: "https://www.terraform.io/"
+  summary: "Managing and deploying infrastructure as code with Terraform, integrated into CI/CD."
 
 - name: CI/CD
   logo: /images/sections/skills/cicd.png
-  summary: "Creating and automating CI/CD pipelines on VCS platform. Using it to manage my infrastructure or build of our applications."
+  summary: "Building and automating CI/CD pipelines to ship infrastructure and applications."
+
+- name: GitHub Actions
+  logo: /images/sections/skills/github-actions.svg
+  url: "https://github.com/features/actions"
+  summary: "Automating builds, tests and deployments with GitHub Actions workflows."
+
+- name: ArgoCD
+  logo: /images/sections/skills/argocd.svg
+  url: "https://argo-cd.readthedocs.io/"
+  summary: "Delivering applications to Kubernetes with GitOps using Argo CD."
+
+- name: Go
+  logo: /images/sections/skills/go.svg
+  url: "https://go.dev/"
+  summary: "Writing tooling and small services for DevOps operations in Go."
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  url: "https://www.python.org/"
+  summary: "Automating IT workflows and building internal tooling."

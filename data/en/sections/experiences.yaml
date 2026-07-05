@@ -12,6 +12,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: VDM
+    url: "https://www.vdm.fr/"
+    location: Paris
+    overview: 'VDM (Vidéo Digital Multimedia) is an audiovisual lab, part of Groupe Transatlantic. It builds Mediaspot, a SaaS platform for managing and distributing audiovisual content (MAM/DAM).'
+  positions:
+  - designation: Lead DevOps
+    start: Sept 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    responsibilities:
+    - Ensure the availability of the Mediaspot platform
+    - Apply cloud best practices
+    - Build an automated deployment pipeline
+    - Set up a dedicated staging environment for testing
+    - Optimize infrastructure costs
+    - Achieve full Infrastructure-as-Code coverage
+    - Co-design Mediaspot's technical roadmap together with the lead developer
+
+- company:
     name: Manaos
     url: "https://www.manaos.com"
     location: Paris
@@ -21,9 +39,7 @@ experiences:
   positions:
   - designation: Devops
     start: March 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+    end: Aug 2024
     responsibilities:
     - Manage delivery
     - Implement scaling workflows
@@ -39,7 +55,7 @@ experiences:
   positions:
   - designation: Devops Student
     start: March 2021
-    end: Mars 2023
+    end: March 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.

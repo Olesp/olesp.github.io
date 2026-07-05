@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Devops
+designation: Lead DevOps
 # your company information
 company:
-  name: LaJavaness
-  url: "https://www.lajavaness.com"
+  name: VDM
+  url: "https://www.vdm.fr/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
@@ -35,10 +35,6 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/olivierlespagnon/"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/olespagnon"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"

@@ -12,23 +12,40 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.svg"
-  summary: "Capable de déployer et gérer des application sur un cluster Kubernetes."
+  logo: /images/sections/skills/kubernetes.svg
   url: "https://kubernetes.io/"
+  summary: "Déploiement et exploitation d'applications sur des clusters Kubernetes."
 
-- name: Python
-  logo: "/images/sections/skills/go.svg"
-  summary: "Automatisation de processus IT. Création de CLIs pour usage interne."
-  url: "https://golang.org/"
+- name: AWS
+  logo: /images/sections/skills/aws.svg
+  url: "https://aws.amazon.com/"
+  summary: "Migration et exploitation de workloads de production sur AWS."
 
-- name: Cloud Computing
-  logo: "/images/sections/skills/cloud.png"
-  summary: "Je travaille sur les plus grands fournisseurs de services, AWS, GCP, Azure. Déploiements d'applications pour le compte de clients."
-
-- name: IAC (Terraform)
+- name: Terraform
   logo: /images/sections/skills/terraform.svg
-  summary: "Gérer et deployer de l'infrastructure as code en utilisant des outils IAC comme Terraform."
+  url: "https://www.terraform.io/"
+  summary: "Gestion et déploiement d'infrastructure as code avec Terraform, intégré à la CI/CD."
 
 - name: CI/CD
   logo: /images/sections/skills/cicd.png
-  summary: "Création et automatisation de pipeline CI/CD via des plateforme de versionnage de code."
+  summary: "Création et automatisation de pipelines CI/CD pour livrer infrastructure et applications."
+
+- name: GitHub Actions
+  logo: /images/sections/skills/github-actions.svg
+  url: "https://github.com/features/actions"
+  summary: "Automatisation des builds, tests et déploiements avec les workflows GitHub Actions."
+
+- name: ArgoCD
+  logo: /images/sections/skills/argocd.svg
+  url: "https://argo-cd.readthedocs.io/"
+  summary: "Livraison d'applications sur Kubernetes en GitOps avec Argo CD."
+
+- name: Go
+  logo: /images/sections/skills/go.svg
+  url: "https://go.dev/"
+  summary: "Développement d'outillage et de petits services pour les opérations DevOps en Go."
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  url: "https://www.python.org/"
+  summary: "Automatisation de processus IT et création d'outillage interne."
