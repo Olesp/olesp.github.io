@@ -1,0 +1,59 @@
+/* Custom overrides bundled after the theme styles (imported by application.template.scss). */
+
+/*
+ * Soft-skill circular progress.
+ * Replaces toha's rotated-bar animation (which overshoots 180deg and renders any
+ * value > 50% as a shrinking arc) with a conic-gradient ring that fills clockwise
+ * from the top by the real percentage. Paired with layouts/partials/misc/soft-skills.html.
+ */
+@property --skill-fill {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+
+.about-section {
+  .circular-progress.soft-skill-ring {
+    // Drop the theme's 12px border track; the fill draws its own ring.
+    &::after {
+      display: none;
+    }
+
+    .soft-skill-ring-fill {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      // Base value = final percentage, so the ring is correct even without
+      // @property/animation support; the animation below interpolates from 0.
+      --skill-fill: var(--skill-pct, 0);
+      background: conic-gradient(
+        var(--skill-color, #048dff) calc(var(--skill-fill) * 1%),
+        rgba(127, 127, 127, 0.22) 0
+      );
+      // Punch a hole so only a 12px ring (matching the theme) is painted.
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 12px));
+              mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 12px));
+      animation: soft-skill-grow 1.4s ease-out forwards;
+    }
+
+    // Keep the centered label above the ring.
+    .circular-progress-value {
+      z-index: 2;
+    }
+  }
+}
+
+@keyframes soft-skill-grow {
+  from {
+    --skill-fill: 0;
+  }
+  to {
+    --skill-fill: var(--skill-pct, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-section .circular-progress.soft-skill-ring .soft-skill-ring-fill {
+    animation: none;
+  }
+}

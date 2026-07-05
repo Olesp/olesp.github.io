@@ -1,0 +1,19 @@
+{{/*
+  Overrides toha's misc/soft-skills.html.
+  The theme's circular-progress animates a single semicircle bar rotated by
+  `percentage * 3.6deg`; past 180deg (i.e. any value > 50%) it sweeps back out
+  of the visible half, so high skills render as a tiny arc. This renders the ring
+  with a conic-gradient instead (styled in assets/styles/override.scss).
+*/}}
+{{ $palette := dict "blue" "#048dff" "yellow" "#eebb4d" "pink" "#ed63d2" "green" "#2dca73" "sky" "#00c9e3" "orange" "#ff7c7c" }}
+{{ $color := .color }}
+{{ if not (hasPrefix $color "#") }}
+  {{ $color = index $palette $color | default "#048dff" }}
+{{ end }}
+{{ $pct := .percentage | default 0 }}
+<div class="col-6 col-lg-4 p-2">
+  <div class="circular-progress soft-skill-ring" style="--skill-color: {{ $color }}; --skill-pct: {{ $pct }};" role="img" aria-label="{{ .name }}: {{ $pct }}%">
+    <div class="soft-skill-ring-fill" aria-hidden="true"></div>
+    <div class="circular-progress-value">{{ .name }}</div>
+  </div>
+</div>
